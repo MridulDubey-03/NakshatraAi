@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Stars, TrendingUp, Heart, Briefcase, Zap, ChevronRight, Settings, MessageSquare, Menu } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card } from './ui/card';

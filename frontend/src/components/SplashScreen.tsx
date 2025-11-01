@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Stars, Sparkles, Loader2 } from 'lucide-react';
 import { Button } from './ui/button';
 import { authService } from '../services/authService';

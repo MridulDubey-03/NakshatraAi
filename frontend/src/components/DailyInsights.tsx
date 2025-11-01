@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, Heart, Briefcase, Shield, TrendingUp, Star, Moon, Sun, Volume2 } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card } from './ui/card';

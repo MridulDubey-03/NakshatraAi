@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+// RIGHT
+import { motion, AnimatePresence } from 'framer-motion';
 import { Toaster } from './components/ui/sonner';
 import { SplashScreen } from './components/SplashScreen';
 import { UserInputScreen } from './components/UserInputScreen';

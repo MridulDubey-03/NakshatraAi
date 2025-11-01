@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, User, Moon, Sun, Star, Crown, Settings, LogOut, Share2, Download } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card } from './ui/card';
 import { Switch } from './ui/switch';
 import { Avatar, AvatarFallback } from './ui/avatar';
 import { authService } from '../services/authService';
-import { toast } from 'sonner@2.0.3';
-
+// RIGHT
+import { toast } from 'sonner';
 interface ProfileProps {
   userData: {
     name: string;
